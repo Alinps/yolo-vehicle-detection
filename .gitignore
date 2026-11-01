@@ -1,0 +1,42 @@
+
+# Dataset images and labels
+data/**
+data/vehicle-detection/train/
+data/vehicle-detection/valid/
+data/vehicle-detection/test/
+
+# Training, validation and prediction outputs
+runs/
+wandb/
+
+# Model weights and exported models
+*.pt
+*.onnx
+*.engine
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter generated files
+.ipynb_checkpoints/
+
+# Logs and cache files
+*.log
+*.cache
+
+# Environment variables and secrets
+.env
+.env.*
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,6 @@
+name: yolo_env
+channels:
+  - defaults
+dependencies:
+  - python=3.12
+prefix: /home/alinps/anaconda3/envs/yolo_env
